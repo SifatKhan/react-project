@@ -39,8 +39,7 @@ header{
 main{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  /* align-items: center; */
+  align-items: center;
   height: 100%;
   width: 100%;
 }
@@ -64,9 +63,9 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: beige;
+  background-color: lightgrey;
 }
-.item input{
+.item input[type="text"]{
   width: 15px;
   height: 15px;
   margin-right: 5px;
@@ -80,4 +79,37 @@ main{
 .item label{
   flex: 1;
   font-size: 1rem;
+}
+
+.addForm{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.add-item-button{
+  background-color: rgb(169, 199, 227);
+  padding: 5px;
+  margin-left: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-item-button:hover{
+  background-color: rgb(159, 159, 245);
+}
+
+.search-item,
+.add-item-input
+{
+  margin: 5px 0;
+  padding: 3px;
+  font-size: 16px;
+  flex-grow: 1;
+  width: 238px;
+  border-radius: 3px;
+}
+
+.search-item{
+  width: 267px;
 }

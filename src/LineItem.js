@@ -15,8 +15,7 @@ const LineItem = ({item, handleCheck, handleDelete}) => {
                 {item.item}
         </label>
         <DeleteTwoTone 
-            className='newicon'
-            twoToneColor={["#ff4d4f", "#e0b6bd"]} 
+            className='newicon' 
             onClick={() => handleDelete(item.id)}
         />
     </li>
