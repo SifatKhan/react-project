@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "dffw"
+    },
+    {
+      "id": 1,
+      "checked": false,
+      "item": "nvn"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "cookies"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "cookies"
+    }
+  ]
+}
